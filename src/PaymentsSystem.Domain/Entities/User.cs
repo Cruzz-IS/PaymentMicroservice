@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 namespace PaymentsSystem.Domain.Entities
 {
     [Table("Users")]
-    internal class User
+    public class User
     {
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]

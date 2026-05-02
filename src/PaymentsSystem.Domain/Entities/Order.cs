@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 namespace PaymentsSystem.Domain.Entities
 {
     [Table("Orders")]
-    internal class Oder
+    internal class Order
     {
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
