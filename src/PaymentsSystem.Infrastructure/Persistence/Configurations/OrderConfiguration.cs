@@ -42,8 +42,8 @@ namespace PaymentsSystem.Infrastructure.Persistence.Configurations
             //    .HasForeignKey(i => i.OrderId)
             //    .OnDelete(DeleteBehavior.Cascade);
 
-            builder.HasIndex(o => o.CustomerId);
-            builder.HasIndex(o => o.Status);
+            //builder.HasIndex(o => o.CustomerId);
+            //builder.HasIndex(o => o.Status);
             builder.HasIndex(o => o.CreatedAt);
         }
     }
