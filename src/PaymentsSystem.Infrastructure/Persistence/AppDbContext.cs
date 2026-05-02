@@ -1,5 +1,6 @@
 ﻿using MassTransit.Transports;
 using Microsoft.EntityFrameworkCore;
+using PaymentsSystem.Domain.Entities;
 using System;
 using System.Collections.Generic;
 using System.Linq;

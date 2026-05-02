@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace PaymentsSystem.Domain.Entities
 {
-    internal class Refound
+    public class Refund
     {
     }
 }
