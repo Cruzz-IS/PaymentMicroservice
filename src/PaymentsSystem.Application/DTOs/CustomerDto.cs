@@ -7,11 +7,11 @@ using System.Threading.Tasks;
 namespace PaymentsSystem.Application.DTOs
 {
     public record CustomerDto(
-    Guid Id,
-    string FullName,
-    string Email,
-    string? Phone,
-    bool IsActive,
-    DateTime CreatedAt
-);
+        Guid Id,
+        string FullName,
+        string Email,
+        string? Phone,
+        bool IsActive,
+        DateTime CreatedAt
+    );
 }
