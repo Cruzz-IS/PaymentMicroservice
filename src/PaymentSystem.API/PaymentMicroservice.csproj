@@ -23,10 +23,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Controllers\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <ProjectReference Include="..\PaymentsSystem.Application\PaymentsSystem.Application.csproj" />
     <ProjectReference Include="..\PaymentsSystem.Infrastructure\PaymentsSystem.Infrastructure.csproj" />
   </ItemGroup>
