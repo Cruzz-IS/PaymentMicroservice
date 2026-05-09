@@ -27,4 +27,8 @@
     <ProjectReference Include="..\PaymentsSystem.Infrastructure\PaymentsSystem.Infrastructure.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Extensions\" />
+  </ItemGroup>
+
 </Project>
