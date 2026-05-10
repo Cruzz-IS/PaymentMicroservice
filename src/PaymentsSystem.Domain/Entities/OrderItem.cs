@@ -13,9 +13,8 @@ namespace PaymentsSystem.Domain.Entities
         public string ProductName { get; private set; }
         public int Quantity { get; private set; }
         public decimal UnitPrice { get; private set; }
-        public decimal Subtotal => Quantity * UnitPrice; // Calculado, no se guarda en BD
+        public decimal Subtotal => Quantity * UnitPrice; // Calculado, no se guarda en la base de datos
 
-        // Constructor privado para EF Core
         private OrderItem()
         {
             ProductName = string.Empty;
